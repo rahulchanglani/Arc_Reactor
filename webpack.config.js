@@ -3,7 +3,7 @@ const config = {
   devServer: {
     contentBase: path.join(__dirname, 'build'),
     compress: true,
-    port: 8080,
+    port: 8001,
     hot: true,
     lazy: false,
   },
