@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-export default class Hello extends React.Component {
+export default class TodoApp extends React.Component {
   state = {
     draftItem: '',
     items: [],
