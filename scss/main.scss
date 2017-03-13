@@ -1,0 +1,46 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+#app {
+  width: 960px;
+  margin: 0 auto;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.todo-app {
+  border: 1px solid green;
+  width: 400px;
+  padding: 10px;
+  margin: 50px auto 0;
+  &__input {
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+}
+
+.clearfix {
+  &:before, &:after {
+    display: table;
+    content: '';
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.todo-item {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  &__content {
+    float: left;
+  }
+  &__remove {
+    float: right;
+    line-height: 16px;
+  }
+}
